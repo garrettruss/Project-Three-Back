@@ -6,8 +6,8 @@ const cors = require('cors');
 // initialize the express app
 const app = express();
 
-// configure settings app.set()
 
+// configure settings app.set()
 require('dotenv').config();
 require('./config/database');
 
