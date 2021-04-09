@@ -15,14 +15,6 @@ mongoose.connect(`${process.env.DB_URL}`,
 );
 
 
-/*
-mongoose.connect(process.env.DB_URL, {
-    useNewUrlParser: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
-    useUnifiedTopology: true,
-});*/
-
 db.on('connected', function () {
     console.log(`Connected to MongoDB at ${db.host}:${db.port}`);
 });
