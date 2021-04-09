@@ -7,6 +7,9 @@ const mountainSchema = new Schema({
     difficulty: String,
     date: Date,
     firstTime: String,
+    list: String,
+    weather: String,
+    comment: String,
     //
 },
  { timestamps: true });
