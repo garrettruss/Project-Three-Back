@@ -7,7 +7,7 @@ const mountainSchema = new Schema({
     difficulty: String,
     date: Date,
     firstTime: String,
-    //
+    
 },
  { timestamps: true });
 
