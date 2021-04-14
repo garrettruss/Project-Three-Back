@@ -6,7 +6,7 @@ const mountainSchema = new Schema({
     uid: String,
     mountain: String,
     difficulty: String,
-    state: String,
+    location: String,
     firstTime: String,
     list: String,
     weather: String,
