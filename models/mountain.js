@@ -5,7 +5,6 @@ const Schema = mongoose.Schema;
 const mountainSchema = new Schema({
     uid: String,
     mountain: String,
-    difficulty: String,
     location: String,
     firstTime: String,
     list: String,
